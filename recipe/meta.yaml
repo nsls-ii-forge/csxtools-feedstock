@@ -1,0 +1,50 @@
+{% set name = "csxtools" %}
+{% set version = "0.1.15" %}
+{% set sha256 = "df9c1a87a9f01fd3c48d2531d05d9cccfdd7353433b920b54fbb4f5c18961000" %}
+
+package:
+  name: {{ name|lower }}
+  version: {{ version }}
+
+source:
+  url: https://github.com/NSLS-II-CSX/{{ name }}/archive/v{{ name }}.tar.gz
+  sha256: {{ sha256 }}
+
+build:
+  number: 0
+  script: "{{ PYTHON }} -m pip install . --no-deps -vv"
+  skip: True  # [py<36]
+
+requirements:
+  build:
+    - {{ compiler('c') }}
+    - {{ compiler('cxx') }}
+  host:
+    - python
+    - pip
+    - numpy
+  run:
+    - python
+    - databroker
+    - ipython
+    - ipywidgets
+    - matplotlib
+    - pims >=0.3.3
+    - tzlocal
+    - {{ pin_compatible('numpy') }}
+
+test:
+  imports:
+    - csxtools
+    - csxtools.ext
+    - csxtools.ext.fastccd
+    - csxtools.ext.image
+    - csxtools.ext.phocount
+
+about:
+  home: https://github.com/NSLS-II-CSX/csxtools
+  license: BSD 3-clause
+  license_file: LICENSE.txt
+  summary: Useful python tools for NSLS-II CSX (23-ID)
+  doc_url: http://nsls-ii-csx.github.io/csxtools
+  dev_url: https://github.com/NSLS-II-CSX/csxtools
