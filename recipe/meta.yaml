@@ -1,6 +1,6 @@
 {% set name = "csxtools" %}
-{% set version = "0.1.15" %}
-{% set sha256 = "df9c1a87a9f01fd3c48d2531d05d9cccfdd7353433b920b54fbb4f5c18961000" %}
+{% set version = "0.1.16" %}
+{% set sha256 = "6c7479be91a2980610f065e656a9186ca5c91e863d96b0d7dceb18c497f55873" %}
 
 package:
   name: {{ name|lower }}
