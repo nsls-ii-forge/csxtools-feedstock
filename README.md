@@ -3,13 +3,15 @@ About csxtools
 
 Home: https://github.com/NSLS-II-CSX/csxtools
 
-Package license: BSD 3-clause
+Package license: BSD-3-Clause
 
-Feedstock license: BSD 3-Clause
+Feedstock license: [BSD-3-Clause](https://github.com/nsls-ii-forge/csxtools-feedstock/blob/master/LICENSE.txt)
 
-Summary: Useful python tools for NSLS-II CSX (23-ID)
+Summary: Useful Python tools for NSLS-II CSX (23-ID)
 
+Development: https://github.com/NSLS-II-CSX/csxtools
 
+Documentation: http://nsls-ii-csx.github.io/csxtools
 
 Current build status
 ====================
@@ -29,57 +31,72 @@ Current build status
         <table>
           <thead><tr><th>Variant</th><th>Status</th></tr></thead>
           <tbody><tr>
-              <td>linux_python3.6.____cpython</td>
+              <td>linux_64_python3.7</td>
               <td>
                 <a href="https://dev.azure.com/nsls2forge/nsls2forge/_build/latest?definitionId=135&branchName=master">
-                  <img src="https://dev.azure.com/nsls2forge/nsls2forge/_apis/build/status/csxtools-feedstock?branchName=master&jobName=linux&configuration=linux_python3.6.____cpython" alt="variant">
+                  <img src="https://dev.azure.com/nsls2forge/nsls2forge/_apis/build/status/csxtools-feedstock?branchName=master&jobName=linux&configuration=linux_64_python3.7" alt="variant">
                 </a>
               </td>
             </tr><tr>
-              <td>linux_python3.7.____cpython</td>
+              <td>linux_64_python3.8</td>
               <td>
                 <a href="https://dev.azure.com/nsls2forge/nsls2forge/_build/latest?definitionId=135&branchName=master">
-                  <img src="https://dev.azure.com/nsls2forge/nsls2forge/_apis/build/status/csxtools-feedstock?branchName=master&jobName=linux&configuration=linux_python3.7.____cpython" alt="variant">
+                  <img src="https://dev.azure.com/nsls2forge/nsls2forge/_apis/build/status/csxtools-feedstock?branchName=master&jobName=linux&configuration=linux_64_python3.8" alt="variant">
                 </a>
               </td>
             </tr><tr>
-              <td>osx_python3.6.____cpython</td>
+              <td>linux_64_python3.9</td>
               <td>
                 <a href="https://dev.azure.com/nsls2forge/nsls2forge/_build/latest?definitionId=135&branchName=master">
-                  <img src="https://dev.azure.com/nsls2forge/nsls2forge/_apis/build/status/csxtools-feedstock?branchName=master&jobName=osx&configuration=osx_python3.6.____cpython" alt="variant">
+                  <img src="https://dev.azure.com/nsls2forge/nsls2forge/_apis/build/status/csxtools-feedstock?branchName=master&jobName=linux&configuration=linux_64_python3.9" alt="variant">
                 </a>
               </td>
             </tr><tr>
-              <td>osx_python3.7.____cpython</td>
+              <td>osx_64_python3.7</td>
               <td>
                 <a href="https://dev.azure.com/nsls2forge/nsls2forge/_build/latest?definitionId=135&branchName=master">
-                  <img src="https://dev.azure.com/nsls2forge/nsls2forge/_apis/build/status/csxtools-feedstock?branchName=master&jobName=osx&configuration=osx_python3.7.____cpython" alt="variant">
+                  <img src="https://dev.azure.com/nsls2forge/nsls2forge/_apis/build/status/csxtools-feedstock?branchName=master&jobName=osx&configuration=osx_64_python3.7" alt="variant">
                 </a>
               </td>
             </tr><tr>
-              <td>win_python3.6.____cpython</td>
+              <td>osx_64_python3.8</td>
               <td>
                 <a href="https://dev.azure.com/nsls2forge/nsls2forge/_build/latest?definitionId=135&branchName=master">
-                  <img src="https://dev.azure.com/nsls2forge/nsls2forge/_apis/build/status/csxtools-feedstock?branchName=master&jobName=win&configuration=win_python3.6.____cpython" alt="variant">
+                  <img src="https://dev.azure.com/nsls2forge/nsls2forge/_apis/build/status/csxtools-feedstock?branchName=master&jobName=osx&configuration=osx_64_python3.8" alt="variant">
                 </a>
               </td>
             </tr><tr>
-              <td>win_python3.7.____cpython</td>
+              <td>osx_64_python3.9</td>
               <td>
                 <a href="https://dev.azure.com/nsls2forge/nsls2forge/_build/latest?definitionId=135&branchName=master">
-                  <img src="https://dev.azure.com/nsls2forge/nsls2forge/_apis/build/status/csxtools-feedstock?branchName=master&jobName=win&configuration=win_python3.7.____cpython" alt="variant">
+                  <img src="https://dev.azure.com/nsls2forge/nsls2forge/_apis/build/status/csxtools-feedstock?branchName=master&jobName=osx&configuration=osx_64_python3.9" alt="variant">
+                </a>
+              </td>
+            </tr><tr>
+              <td>win_64_python3.7</td>
+              <td>
+                <a href="https://dev.azure.com/nsls2forge/nsls2forge/_build/latest?definitionId=135&branchName=master">
+                  <img src="https://dev.azure.com/nsls2forge/nsls2forge/_apis/build/status/csxtools-feedstock?branchName=master&jobName=win&configuration=win_64_python3.7" alt="variant">
+                </a>
+              </td>
+            </tr><tr>
+              <td>win_64_python3.8</td>
+              <td>
+                <a href="https://dev.azure.com/nsls2forge/nsls2forge/_build/latest?definitionId=135&branchName=master">
+                  <img src="https://dev.azure.com/nsls2forge/nsls2forge/_apis/build/status/csxtools-feedstock?branchName=master&jobName=win&configuration=win_64_python3.8" alt="variant">
+                </a>
+              </td>
+            </tr><tr>
+              <td>win_64_python3.9</td>
+              <td>
+                <a href="https://dev.azure.com/nsls2forge/nsls2forge/_build/latest?definitionId=135&branchName=master">
+                  <img src="https://dev.azure.com/nsls2forge/nsls2forge/_apis/build/status/csxtools-feedstock?branchName=master&jobName=win&configuration=win_64_python3.9" alt="variant">
                 </a>
               </td>
             </tr>
           </tbody>
         </table>
       </details>
-    </td>
-  </tr>
-  <tr>
-    <td>Linux_ppc64le</td>
-    <td>
-      <img src="https://img.shields.io/badge/ppc64le-disabled-lightgrey.svg" alt="ppc64le disabled">
     </td>
   </tr>
 </table>
