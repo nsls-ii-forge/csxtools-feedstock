@@ -3,9 +3,8 @@ MACOSX_DEPLOYMENT_TARGET:
 c_compiler:
 - clang
 c_compiler_version:
-- '11'
-cdt_name:
 - '10'
+cdt_name:
 - cos6
 channel_sources:
 - nsls2forge,defaults
@@ -14,7 +13,7 @@ channel_targets:
 cxx_compiler:
 - clangxx
 cxx_compiler_version:
-- '11'
+- '10'
 macos_machine:
 - x86_64-apple-darwin13.4.0
 numpy:
