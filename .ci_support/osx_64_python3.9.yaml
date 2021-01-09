@@ -5,6 +5,7 @@ c_compiler:
 c_compiler_version:
 - '11'
 cdt_name:
+- '10'
 - cos6
 channel_sources:
 - nsls2forge,defaults

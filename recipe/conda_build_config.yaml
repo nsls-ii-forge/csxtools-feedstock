@@ -6,8 +6,10 @@ cdt_name:
   - cos6
 c_compiler_version:    # [linux]
   - 7                  # [linux]
+  - 10                 # [osx]
 cxx_compiler_version:  # [linux]
   - 7                  # [linux]
+  - 10                 # [osx]
 numpy:
   - 1.16
   - 1.16
