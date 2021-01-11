@@ -12,8 +12,8 @@ source:
 
 build:
   number: 0
-  script: "{{ PYTHON }} -m pip install . --no-deps -vv"
-  skip: True  # [py<36]
+  script: {{ PYTHON }} -m pip install . --no-deps -vv
+  skip: true  # [py<36 or (osx and py<39)]
 
 requirements:
   build:
@@ -44,8 +44,8 @@ test:
 
 about:
   home: https://github.com/NSLS-II-CSX/csxtools
-  license: BSD 3-clause
+  license: BSD-3-Clause
   license_file: LICENSE.txt
-  summary: Useful python tools for NSLS-II CSX (23-ID)
+  summary: Useful Python tools for NSLS-II CSX (23-ID)
   doc_url: http://nsls-ii-csx.github.io/csxtools
   dev_url: https://github.com/NSLS-II-CSX/csxtools
